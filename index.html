@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Quiz</title>
+<link href ="style.css" rel ="stylesheet">
+<script src = "main.js"></script>
+</head>
+
+<body>
+<h1>Quiz</h1>
+
+<form id = "quiz" name = "quiz">
+
+<p class = "questions">'What year was the very first model of the iPhone released?</p>
+<input type="button" id="question1" value="Click here to answers"
+onClick="window.prompt('Enter Your Answers');myAnswer1()">
+<div id="panel"><p>Correct</p></div>
+
+<p class = "questions">Which email service is owned by Microsoft?</p>
+<input type="button" id="question2" value="Click here to answers"
+onClick="window.prompt('Enter Your Answers');myAnswer2()">
+<div id="panel1"><p>Correct</p></div>
+
+<p class = "questions">Google Chrome, Safari, Firefox, and Explorer are different types of what?</p>
+<input type="button" id="question3" value="Click here to answers"
+onClick="window.prompt('Enter Your Answers');myFunction()">
+<div id="panel"><p>Correct</p></div>
+
+<p class = "questions">What is the shortcut for the “copy” function on most computers?</p>
+<input type="button" id="question4" value="Click here to answers"
+onClick="window.prompt('Enter Your Answers');myFunction()">
+<div id="panel"><p>Correct</p></div>
+
+<p class = "questions">What is often seen as the smallest unit of memory?</p>
+<input type="button" id="question5" value="Click here to answers"
+onClick="window.prompt('Enter Your Answers');myFunction()">
+<div id="panel"><p>Correct</p></div>
+
+<input id = "button" type = "button" value = "SUBMIT" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+</div>
+</html>
+</body>
+
+
+
